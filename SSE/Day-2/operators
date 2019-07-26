@@ -1,0 +1,15 @@
+operators:
+-----------
+-->Arithmatic operators(+,-,%,*,/)
+		-->incre&decre
+				-->post incre ex:a++
+				-->pre incre ex:++a
+-->Logical operators-->Logicle AND(&&),OR(||),NOT(!)
+-->Relational Operators-->>,<,==,<=,>=,!=
+-->Assignment Operators-->+=,-=,*=,/=,%=,
+-->bitwise operators-->bitwise and(&),bitwise(|),bit wise not(~),biwise xor(^)
+
+
+
+
+

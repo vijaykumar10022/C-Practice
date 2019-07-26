@@ -1,0 +1,45 @@
+#include <stdio.h>
+#include <string.h>
+#include <math.h>
+#include <stdlib.h>
+
+int main() {
+
+    int t,pumps[100000][3],i,j,positivepumps[1e5],index=0;
+    long long sum=0;
+    scanf("%d",&t);
+    for(i=0;i<t;i++) {
+        scanf("%d %d",&pumps[i][0],&pumps[i][1]);
+        pumps[i][2] = pumps[i][0] - pumps[i][1];
+        if(pumps[i][2]>=0){
+            if(index>=0)
+            if(sum<0) index--;
+            positivepumps[index++]=i;
+            sum=0;
+        }else {
+            sum+=pumps[i][2];
+        }
+        }
+    
+        printf("%d",positivepumps[0]);
+     /* for (i=0;i<index;i++){
+              sum=0;
+             for(j=positivepumps[i];j<positivepumps[i+1];j++){
+                 sum+=pumps[j][2];
+               
+                 
+             }
+                for(j=0;j<positivepumps[i];j++){
+                    sum+=pumps[j][2];
+                    
+                }              
+              if(sum>=0){
+                  printf("%d",positivepumps[i]);
+                  break;
+                  
+              }
+              
+          }
+          */
+    return 0;
+}

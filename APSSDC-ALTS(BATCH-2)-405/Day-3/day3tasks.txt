@@ -1,0 +1,118 @@
+Day-2 Tasks[25/02/2019]:
+   
+1.i/p:Enter A Number:121
+  o/p:Given Number 121 is Divisible by 11.
+  
+  -->121
+	oddpositions:1+1
+	evenpositions:2
+	11 -->sumof evenpositions-sum of odd position-->0 11
+		-->divisible by 11
+ -->678234
+	op-->6+8+3+
+	ep-->7+2+4
+	13-17-->-4 it is not divisible
+  
+2.i/p:Enter A Number:36
+   o/p:Given Number 36 is divisible by 3.
+   
+   -->3+6-->9
+   -->9%3==0-->
+   
+3.i/p:Enter A Number:63.
+  o/p:Given Number 63 is divisible by 7.
+  
+  -->63-->3
+  -->6-3^2-->6-9-->-3+3
+  -->4823-->3 -->482-6-->476
+  476-->47-12-->35
+  -->3-10-->-7(T)-->0 or 7
+  
+ 4.i/p:Enter A Number:50
+   o/p:Given Number 50 is divisible by 10 and 5.
+   
+   -->5-->5 or 0
+   -->10-->0
+   
+   
+ 5.i/p:Enter Four Numbers:67 88 99 0
+   o/p:Biggestvalue is 99.
+   
+   
+ 6.i/p:Enter A Character:$
+   o/p:Given Character is SpecialCharacter Symbol.
+    i/p:Enter A character:5
+   o/p:Given Character is Number.
+   i/p:Enter A Character:B
+   o/p:Given Character is Alphabet.
+   
+ 7.Write a C program to input electricity unit
+  charges and calculate total electricity bill 
+  
+  according to the given condition:
+	For first 50 units Rs. 0.50/unit
+	For next 100 units Rs. 0.75/unit
+	For next 100 units Rs. 1.20/unit
+	For unit above 250 Rs. 1.50/unit
+	An additional surcharge of 20% is added to the bill
+	
+i/p:Enter total units consumed: 150
+ o/p:Electricity Bill = Rs. 120.00
+	-->50-->50*0.50-->25Rs
+	-->100-->100*0.75-->75Rs
+						---
+						100 -->20
+						100+20-->120
+	
+	
+	
+	
+8.  0.....8>>CHILD
+     8.....18>>TEENAGERS
+     18.....100>>ADULTS.
+     >100.......invalid age.
+	  i/p:Enter Age:8
+	  o/p:Given person is CHILD
+	  i/p:Enter Age:15
+	  o/p:Given Person is TEENAGER.
+	  i/p:Enter Age:25
+	  o/p:Given person is ADULT
+	  i/p:Enter Age:60
+	  o/p:Invalid Age.SENIOR CITIZEN.
+	  i/p:Enter age:120
+	  o/p:Invalid age.
+	  
+9.i/p:Enter MonthNumber:12
+   o/p:Given Month name is December&31Days.
+   
+10.i/p:Slect Which operation youneed to perform:
+     1.Addition
+     2.Substraction
+     3.Multiplication.
+     4.Division
+     5.Modulus.
+     1
+     Eter number1:5
+     Enter number2:6
+     o/p:Addtion of 5 and 6 is 11.
+     i/p:6
+     o/p:InvalidInput.
+     
+     
+     
+     
+     
+     
+     
+     
+     
+ 
+	  
+	
+	
+	
+	
+	
+	
+	
+ 

@@ -1,0 +1,33 @@
+Offline compillers:
+------------------	     
+ -->Editors:
+			Windows:notepad,Notepad++,geany,edit++,sublime ect...
+			--------
+			linux:nano,ged,vi,vim ..ect
+			-----
+	-->Compillers:TDM GCC ,Ming C,c,cc ..ect
+	win+R
+	-->IDE's(Editor+Compiller):Turbo c,dev c,codeblock ect..
+Online compillers:
+-----------------			
+			codechef,tutorialpoint,hackerrank,hackerearth..ect
+
+-->Two ways to execute or run our program 
+	Editor:
+		Compile-->f8 -->c(source)-->o(object)
+		build-->f9 -->0(object)--->exe(executable/application)
+		execute-->f5 -->exe(Executable)
+   commandpromt:
+		1).
+		-->gcc filename.c
+		-->a.exe
+		2).
+		-->gcc filename.c -o executablefilename
+		-->executablefilename
+			
+
+
+
+
+	
+	

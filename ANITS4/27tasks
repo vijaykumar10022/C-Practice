@@ -1,0 +1,22 @@
+1).Write a C program to input number of days from user and convert it to years, weeks and days. How to convert days to years, weeks in C programming. Logic to convert days to years, weeks and days in C program.
+Example
+Input
+Enter days: 373
+Output
+373 days = 1 year/s, 1 week/s and 1 day/s
+2).Write a C program to input temperature in Centigrade and convert to Fahrenheit. How to convert temperature from degree centigrade to degree Fahrenheit in C programming. Logic to convert temperature from Celsius to Fahrenheit in C.
+Example
+Input
+Enter temperature in Celsius = 100
+Output
+Temperature in Fahrenheit = 212 F
+3).Write a C program to input a character from user and check whether given character is alphabet, digit or special character using if else. How to check if a character is alphabet, digits or any other special character using if else in C programming. Logic to check alphabet, digit or special character in C programming.
+Example
+Input
+Input any character: 3
+Output
+3 is digit
+4). 
+ input: 50 80 70 98 
+ output:sum =298
+		lst digit=8

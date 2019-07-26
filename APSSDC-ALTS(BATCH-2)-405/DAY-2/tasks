@@ -1,0 +1,55 @@
+Day1 Tasks[28/05/2019]:
+1).input:700days
+   output:1 year 47 weeks 6 days
+explanation:700 1-->365-->335--> 47-->6days
+2).input:1500 cm 
+	hint:
+	   1 m = 100 cm
+	   1 km = 100000 cm//1000 m
+	output:Meters =15m
+	   Kilometers=0.015km   
+3).input:10 20(Without using Third variable);swapping
+    output:20 10 
+
+4).input:Celsius =100
+   output:fahrenheit =212
+	f=(c*9/5)+32
+
+5).input:Radius =5
+   output:Area of Circle is =75.50//3.14*r*r
+
+6).input:10 20
+   output:Area of Triangle is 100 (0.5)*b*h
+7).Input:
+Enter principle: 1200
+Enter time: 2
+Enter rate: 5.4
+Output:
+Simple Interest = 129.600006
+
+8).Input:
+	Enter principle (amount): 1200
+	Enter time: 2
+	Enter rate: 5.4
+   Output:
+	Compound Interest = 1333.099243
+	CI = principle * pow((1 + rate / 100), time).
+	Compond Instrest for given principle amount 1200 ,time 2 ,rate  5.4 is 1333.099
+
+9).Input:
+Enter marks of five subjects: 95 76 85 90 89
+note:>90-->A
+     90<n>80-->B
+     80<n>70-->C
+     70<n>40-->D
+     40<n-->Fail
+Output:
+	Total = 435
+	Average = 87
+	Percentage = 87.00-->Grade B
+10).Input-->C=180-(a+b);
+	Enter first angle: 60
+	Enter second angle: 80
+	Output:
+	Third angle = 40
+

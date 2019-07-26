@@ -1,0 +1,16 @@
+Funtions:-->set of instructions to do perticular task
+uses-->reuseability
+	-->block code can identify errors esily
+
+types:2 types:predefined -->printf,scanf,strcmp,pow,strrev,main
+user defined-->this fuctions devided into 4 types
+               based on arguments/parameters and return value
+       1).funtion with arguments and with return value
+       2).funtion with arguments and with out return value
+       3).funtion without argume and with return value
+       4).funtion without arg and without return value
+       
+   parts of funtions:
+					-->Funtion declaration
+					-->funtion calling
+					-->Funtion defination

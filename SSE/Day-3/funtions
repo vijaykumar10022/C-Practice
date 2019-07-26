@@ -1,0 +1,22 @@
+Funtion:
+	-->Pre defined /built in function
+		-->pf(),main(),sf,pow(),cos(),sin(),..
+	-->User defined funtion
+		-->this funtions are divided in to 4 types
+			based on arguments/parameters and return value
+			-->function with out arg and with out return value
+			-->Funtion with arg and with return value
+			-->Funtion with out arg and with return value
+			-->Function with arg and with with out return value
+			
+	Funtion parts:
+		-->Function declaration//optional funtion defination
+			returntype funtionname(arguments); 
+		-->Function calling.
+			returntype funtionname(arguments);
+		-->Function defination
+			returntype funtionname(arguments){
+			
+				statements;
+				return value;
+			}

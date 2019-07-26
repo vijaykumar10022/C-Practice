@@ -1,0 +1,25 @@
+				String
+				------
+-->C Strings are nothing but array of characters ended with null character (‘\0’).
+-->This null character indicates the end of the string.
+-->Strings are always enclosed by double quotes. Whereas, character is enclosed by single quotes in C
+EXAMPLE FOR C STRING:
+char string[20] = {'v','i','j','a','y', ‘\0’};
+(or)
+char string[20] = “vijay”;
+(or)
+char string []    = “vijay”;
+-->Difference between above declarations are, when we declare char as “string[20]”, 20 bytes of memory space is allocated for holding the string value.
+-->When we declare char as “string[]”, memory space will be allocated as per the requirement during execution of the program.
+string functions:
+----------------
+gets()
+puts()
+strlen()
+strcpy()
+strcat()
+strcmp()
+strrev()
+strlwr()
+strupr()
+strstr()

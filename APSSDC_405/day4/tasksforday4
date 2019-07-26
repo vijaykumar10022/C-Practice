@@ -1,0 +1,102 @@
+1).input:1478
+   output:8741 
+   input:101
+   output:101 -->palindrome
+2).input:1478-->8741-->8741%10-->1-->Switch(1-->one
+   output:one four seven eight
+   
+   
+   //7894
+   //4987%10
+	 7
+	 -->7-->Seven
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+   
+3)input:3214-->Count =4
+ output:40
+       3*4+2*4+1*4+4*4
+       12+8+4+16-->40
+    input:12345 -->count-->5
+    output:1*5+2*5+3*5+4*5+5*5-->?
+    
+    
+    
+    //1234
+    //4321
+    4321%10
+    1*4+2*4+3*4+4*4-->
+    
+    
+    
+4).
+	Input rows: 5
+	Input columns: 5
+	Output
+	11111
+	11111
+	11111
+	11111
+	11111
+ 5).Input rows: 5
+	Input columns: 5
+	Output
+	11111-->0th row
+	00000-->1st row
+	11111-->2nd row
+	00000-->3rd row
+	11111-->4th row
+6).Input:
+	 rows: 5
+     columns: 5
+	Output
+	11111
+	10001
+	10001
+	10001
+	11111
+7).Input rows: 5
+Output
+
+    *
+   ***
+  *****
+ *******
+*********
+	
+8).Input N: 5
+Output
+
+*       *
+ *     *
+  *   *
+   * *
+    *
+   * *
+  *   *
+ *     *
+*       *
+9).input:5
+   output:
+   A A A A A
+   B       B
+   C       C
+   D       D
+   E E E E E
+10).input:5
+    output:
+	     +    
+	     +
+	 + + + + +
+	     +
+	     +

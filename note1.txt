@@ -1,0 +1,363 @@
+Day 1 :-
+========
+//print a number in binary format
+//4 as a group
+//modular apporoch 
+//divide the probelm into smaller one and develop functions
+47=32+8+4+2+1=0010 1111
+
+0000 0000 0000 0000 0000 0000 0010 1111
+1000 0000 0000 0000 0000 0000 0000 0000  --->bitwise & 
+0100 0000 0000 0000 0000 00
+=======================================
+zero if 0 is in msb otherwise non-zero
+
+c language integers can be written in
+
+decimal format
+octal format
+hexa decimal format
+ex:
+
+x=47
+x=057 if any number starts with zero,
+x=0x2f
+
+
+x=0x800000000
+x & y
+x >> 1
+1000 0000
+0100 0000 >> 1 unsigned
+1100 0000 >> 1 signed int
+
+printf("%x",n)==> to print hexadecimal format
+sprintf(s,"%x",n);==>to print string
+
+Day2:
+=====
+User Interface 
+scanf
+printf
+format specifiers====>%w/%d/%r--> integer number
+					  %d/%x/%o
+					  %5d---->5 right justify using 5 spaces
+					  %-10x-->after spaces
+					  
+					  
+char s[9];
+n=174;
+sprintf(s,"%08x",n);
+s contains "000000AE"
+
+0=0000
+A=1010
+E=1110
+			  31				   					2 1 0
+0000450A----->0000 0000 0000 0000 0100 0101 0000 1010
+
+
+http://www.sanfoundry.com
+
+
+
+
+int msb1(int n)
+{
+return 14
+}
+
+
+10-->
+      
+       0000000001010
+ print("A last 1 is in position %d(5) for the number (%d)42",msb1(n),n);
+
+5-->1001
+
+
+1)programming in c - kernighan and Ritchie
+2)programming in c-  Herbert Schildt
+					 schaum series
+					 Balaguruswami
+					 
+					 
+					 
+	site:.edu ext:pdf C language expression
+	
+	
+General c Program Structure
+===========================
+Macros and Headers (#include #define)
+library-containe number of functions
+Global variabls -out side of all function
+functions defenation -
+main function
+
+
+Expression:
+==========
+valid combination of identifiers ,operators,constants,function calls.
+return value
+type of expression
+12
+x
+f(a,b)
+a+b
+x+y*z
+m+f(x)*g(a,b)
+
+expression evalutation is done by following operator precedence and associative rules
+
+	4+2*5 =(4+2)*5=6*5=30
+		   =(4)+(2*5)=4+10=14==>c fallow this
+		   
+Associativity- left to right or right to left
+
+12-7-2 =( 12 - 7) - 2 =5 - 2 = 3 -has left to right associativity
+	   =12 - (7-2)=12 -5 =7 -has right to left associativity
+2 + 5 return  7
+x=34 return 34
+	   
+x = y = 20;x=(y=20) =
+
+x=(y=20) + 10 ; is stored into y and 30 is stored into x
+	z =(x=10)*(y=20);
+	z = x = 10*y = 20;it incorrect
+	z = +75;
+Assignment statement
+
+variable = expression
+variable has name,value,address,type 
+lnvalue
+rvalue
+int x= 10;
+x is a variable, 10,1000,int
+x=x+5 
+lvalue =rvalue
+x=10 yes
+10 =x no
+10 ==x yes
+200=200 yes its allowed
+
+constants
+=========
+integer constants can be written in 3 ways -decimal,octal,hexadecimal
+integer interna representation is done in 2's complement
+unsigned int y
+         int x 
+1234,0123,0x123,0x80000000,0xffffffff,
+x=0123;
+83 = 1 *8^2 + 2*8^1 +3*8^0
+
+float: 4 bytes
+double: 8 bytes
+byte
+unsigned byte
+int =long int on linux =short int on windows
+int x;
+short int:2 bytes
+long int: 4 bytes
+long long int: 8 bytes
+
+char 
+void
+
+
+char name[51]: valid index values 0 to 99 -100 values are stored
+Strings  end with null character 0 - 
+'A,'a','8',
+'0'= 48 decimal or 0x30=0011 0000
+,'\0' is null character ,#define NULL '\n'
+
+
+pointers and arrays
+===================
+
+
+int x[10];
+x is an array that can store 10 integer values
+strating address of x is 20000
+ending address of x is 20039
+x[0]=20000 to 20003
+x[1]=20004 to 20007
+x[2]=20008 to 20012
+
+
+x[9]=20036 to 20039
+
+x return starting address of  - 20000
+
+address arithmatic
+
+x=2 return 20000+2*sizeof int=20000+8=20008 strarting address of 2
+
+Address operator & *
+====================
+x[2] = *(x+2)
+x[i] = *(x+i)
+
+int m; ---> m is an integer vaiable used to store integer values
+int *p;
+p is a pointer variable used to store address of integer value
+p = x;
+
+p has an address of its own 30000
+p has a value  
+in memory location 30000,20000 will be stored  as a value
+
+p=x+5;
+
+p=20020
+
+x = p is not correct
+p = x is possible
+x[2] = 56
+
+
+gets(name)
+
+ramesh sinha
+name[0]='r'
+name[1]='a'
+name[2]='m'
+name[3]='e'
+name[4]='s'
+name[5]='h'
+name[6]='h'
+name[7]='h'
+name[6]='\0'
+name[7]=
+8
+
+
+
+
+50
+
+puts(name) = ramesh
+
+
+A ' ' B
+'\n' New Line char is 10 0xa
+'\0xa'
+'\r' Carriage return is 13 oxd
+'0xd'
+\t
+\a
+\v
+'\n'
+"ramesh rao"
+
+x
+char *p
+p is a character pointer 
+p = " abcd 1234"
+gets(p+4)
+trying 
+p[3]
+p 
+        012345
+puts(p)=abcd 1234
+puts(p+5)
+p+5---> returns address of 5 th element from p
+
+
+
+Ponters And Arrays:
+===================                                                               int x[]={2,4,9,10};
+	Value  Name  Address  typr                                     Value     Name    Address   Type     index
+	10       a     1234     int a                                   2         x          1000   int []     0
+	1234      p   1200     int *p    p=&a;                          4                    1004               1
+	1200     q    1300    int **q   q=&p							9				     1008		        2
+																	10					 1012	     	    3
+	
+											   Type  
+					printf("%d",a); -->10      int
+					p        ------->1234      int *                     int *p   p=x
+					q --------- ----->1200     int **         Value   Name   address   Type    
+					&a   ------------->1234      int *         1000      p     2000      int*
+					&p --------------->1200       int **      
+					&q ---------------->1300      int ***
+					*p  --------------->10        int
+					*q  --------------->1234      int *
+					**q ---------------->10       int
+					x ----------------- >1000     int *
+					x[2]=*(x+)--->*(p+2)=p[2]=2[p]
+													P=&X[0]=X
+													P=&x[2]   p=x+2
+					
+					
+					
+					                                09/05/2017
+					===========================================================================================
+					
+					
+Recusion Vs Iteration Techniques:	A function call itself 	
+=================================
+			fac(n)=n*fac(n-1) if n>1  recursive case
+			       =1 otherwise end case 
+			 fac(3)=3*fac(2)=3*2*fac(1)=3*2*1=6       
+			       
+sum of  first n natural numbers
+
+sum(n) = n +sum(n-1) if n>1 recursive case
+	   = 1 otherwise end case
+	   
+sum(5)=5+sum(5-1)=5+sum(4)=5+(4+sum(4-1))
+      =5+(4+sum(3))=5+4+3+sum(2);
+       =5+4+3+2+sum(1)
+       =5+4+3+2+1=15
+       
+  rev(347)=743
+  rev(347)=34,7 =7*rev(34)
+  
+  rev(47)=4,7=
+  rev(n)=10* n%10+rev(n / 10) if n>9
+   rev(47)=10*47%10+rev(4)=10*7+4=74
+   rev(347)=10*347%10 + rev(34)
+			10*7+rev(34)
+ 
+  
+       
+ 
+  
+	       
+	 
+					
+					
+
+
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+	
+	
+	
+
+
+
+					  
+
+
+
+

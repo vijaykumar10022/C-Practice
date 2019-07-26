@@ -1,0 +1,39 @@
+					Union
+					-----
+Union is also like structure, i.e. collection of different data types which are grouped together. Each element in a union is called member.
+-->Union and structure in C  are same in concepts, except allocating memory for       their members.
+-->Structure allocates storage space for all its members separately.
+-->Whereas, Union allocates one common storage space for all its members
+-->We can access only one member of union at a time. We can’t access all member     values at the same time in union. But, structure can access all member values at   the same time. This is because, Union allocates one common storage space for all   its members. Where as Structure allocates storage space for all its members   separately.
+-->Many union variables can be created in a program and memory will be allocated      for each union variable separately.
+-->Below table will help you how to form a C union, declare a union, initializing   and accessing the members of the union.
+   Syntax:
+   ------
+	union student
+	{
+		datatype var_name1;
+		datatype var_name2;
+		datatype var_name3;
+	};
+  Example:
+  -------
+	union student
+	{
+		int  mark;
+		char name[10];
+		float average;
+	};
+Declaring union using normal variable:
+--------------------------------------
+ with in the main(){
+		union student report;
+	}
+Initializing union using normal variable:
+-------------------------------------------
+	union student report = {100, “Mani”, 99.5};
+
+Accessing union members using normal variable:
+----------------------------------------------
+	report.mark;
+	report.name;
+	report.average;

@@ -1,0 +1,21 @@
+environment setup:
+----------  -----
+editors 
+compillers
+editors+compillers(ide's)
+
+windows:xp,win7,win8,win10 -->32 bit &64 bit
+editor-->notepad,notepad++,geany,sublime,atom ect..
+compillers:TDM GCC Compiller,C,CC,magngo c
+editors+compillers(IDE's):dev c,codeblocks,turbo c ect..
+
+Linux:ubuntu ,zorin,redhat,kali linux ect
+editors:vim,nano,geany,notepad++,sublime ect
+compillers:TDM GCC Compiller,C,CC,magngo c ect
+Editors+Compillers:dev c,codeblocks ect
+
+Mac:Apple
+
+editors:vim,nano,geany,notepad++,sublime ect
+compillers:TDM GCC Compiller,C,CC,magngo c ect
+Editors+Compillers:dev c,codeblocks ect

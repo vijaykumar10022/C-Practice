@@ -1,0 +1,9 @@
+for loop:
+
+syntax:
+-------
+	for(initialization;condition;incre/decre){
+		statements1;
+		statements2;
+		statementsn;
+	}

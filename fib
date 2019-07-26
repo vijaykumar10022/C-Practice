@@ -1,0 +1,30 @@
+#include<stdio.h>
+int main()
+{
+	int first=0,second=1,temp,n,i;
+	//printf("Enter a number to find fib: ");
+	scanf("%d",&n);
+	if(n==0)
+	{
+		printf("%d",first);
+	}
+	else if(n==1)
+	{
+		printf("%d",second);
+	}
+	else if(n<=45)
+	{
+		for(i=2;i<=n;i++)
+		{
+			temp=first+second;
+			first=second;
+			second=temp;
+		}
+		printf("%d",temp%10);
+	}
+	else
+	{
+		printf(" ");
+	}
+	return 0;
+}

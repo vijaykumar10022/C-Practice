@@ -1,0 +1,45 @@
+Structure
+--------
+C Structure is a collection of different data types which are grouped together and each element in a C structure is called member.
+
+If you want to access structure members in C, structure variable should be declared.
+	-->Many structure variables can be declared for same structure and memory will be allocated for each separately.
+	
+DIFFERENCE BETWEEN C VARIABLE, C ARRAY AND C STRUCTURE:
+-----------------------------------------------------
+-->A normal C variable can hold only one data of one data type at a time.
+-->An array can hold group of data of same data type.
+-->A structure can hold group of data of different data types and Data types can be    int, char, float, double and long double etc.
+   
+   Syntax:
+   ------
+	struct student
+	{
+		datatype var_name1;
+		datatype var_name2;
+		datatype var_name3;
+	};
+	
+  Example:
+  -------
+	struct student
+	{
+		int  mark;//4
+		char name[10];//10
+		float average;//4
+	};
+Declaring structure using normal variable:
+-----------------------------------------
+ with in the main(){
+		struct student report;
+	}
+Initializing structure using normal variable:
+-------------------------------------------
+	struct student report = {100, “Mani”, 99.5};
+
+Accessing structure members using normal variable:
+--------------------------------------------------
+	report.mark;
+	report.name;
+	report.average;
+

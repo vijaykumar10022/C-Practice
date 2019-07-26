@@ -1,0 +1,41 @@
+arrays:to find serching element and 	
+------
+also position 
+
+read_array();
+display_array();
+printf("Enter Searching element to find in array");
+scanf(s);
+search_ele(s);
+
+Sorting an array:-->Ascending and 		Descending order
+input:124578971
+output:112457789 or 987754211
+Exchanging values of even and odd values
+input:1 2 3 4 5 6
+output:2 1 4 3 6
+
+Adding two array values to store that values into some other(third)array
+array1={1,2,3,4,5};
+arrar2={5,7,8,9,10};
+array3={1,2,3,4,5,5,7,8,9,10};
+
+
+
+
+
+
+
+
+
+adding element in array for right side(insertion)
+
+Removing element in array for left side
+(Deletion)
+
+
+
+
+
+
+

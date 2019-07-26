@@ -1,0 +1,20 @@
+f(x)=x*x
+f(2)=2*2
+f(10)=10*10
+
+
+Recursion:
+A Function calling itself is called recursion.
+fact(n)=n*fact(n-1) if n>1
+fact(n)=1, if n=0 or 1
+
+f(x,n)=x*f(X,n-1) if n>0
+f(x,n)=1 if n=0
+
+Ackremann function
+A(m,n)=  n+1 if m=0
+		= a(m-1,1) if m>0 and n=0
+		 =a(m-1,a(m,n-1)) if m>0 and n>0
+A(0,0)=
+a(1,1)=
+

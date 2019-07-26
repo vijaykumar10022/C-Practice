@@ -1,0 +1,19 @@
+iterations (Loops):
+		-->for
+					  (1)         (2)(5)(8)      (4)(7)
+				for(initilization;condition;incre/decre)
+				{
+				    (3)(6)(9)
+					statements;
+				}
+		-->While
+			while(condition){
+				statements;
+				incre/decre;
+			}
+		-->do-while
+			do{
+				statements;
+				incre/decre;
+			}while(condition);
+

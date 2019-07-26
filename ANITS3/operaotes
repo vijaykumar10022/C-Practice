@@ -1,0 +1,26 @@
+Operators:
+-----------
+1).Arithmatic operators->+,-,/,%
+2).Relational Operators-><,>,>=,<=,==,!=
+	
+3).Logical Operators->AND(&&),OR(||),NOT(!);
+	T&&T-->
+	a=10
+	b=20
+	a&&b
+	(a<b)&&(a==10)
+	T&T-->T->1
+	!(a<b)-->F->0
+4).Increment/Decrement Operators->++,--
+	incre-->1)pre increment a=10;++a-->11
+			2).post incrementa=10;a++-->10
+	decre-->1).Pre decre a=5;--a -->4
+			2).post decre a=5;a-- -->5
+5).bitwise operators->bitwise AND(&),Bitwise OR(|),Bitwise XOR(^),Bitwise NOT(~),Right shift(>>),Left Shift(<<) 
+a=5
+a>>2--a=101>2
+	0000 0101
+	0000 0001-->1
+A<<2-->0000 0101
+	   0001 0100-->20
+		

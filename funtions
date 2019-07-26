@@ -1,0 +1,90 @@
+funtions:
+		A function is a block of statements ,which is used to perform a task
+
+types of functions:
+------------------
+-->predefined or built in functions 
+			   ex:puts(),gets(),scanf(),printf()..etc
+-->user defination function:w
+				ex:additionof(),subtration(),function()..etc
+				
+
+user defined function are depending upon the return and arguments these are divided into 4 types:
+--->function with arguments and with return value 
+return_type function_name(arguments list)
+{
+statements;
+return interger_value;
+}
+example:
+int add(int a,int b)
+{
+   return a+b;
+}
+--->function with arguments and with out return values
+return_type function_name(arguments list)
+{
+statements;
+printing values;
+}
+example:-
+void add(int a,int b)
+{
+printf("%d",a+b);
+}
+
+--->function with out arguments and with out return values
+return_type function_name(no arguments list)
+{
+statements;
+}
+example:--
+
+void add()
+{
+int a,b;
+scanf("%d %d",&a,&b);
+printf("%d",a+b);
+}
+
+-->function with out arguments and with return values
+return_type function_name()
+{
+statements;
+return value;
+}
+int add()
+{
+int a,b;
+scanf("%d %d",&a,&b);
+return a+b;
+}
+
+
+function syntax:
+----------------
+return_type function_name(arguments/parameters){
+	block of code
+}
+
+types of argumetns/parameters:
+----------------------------
+-->Actual parameters
+--->formal parameters
+
+Ex:
+	//addition of two numbers by using functions
+	#include<stdio.h>
+	void add(int s1,int s2);
+	int main(){
+		int num1,num2;
+		scanf("%d%d",&num1,&num2);
+		add(num1,num2);
+	return 0;
+	}
+	void add(int s1,int s2){
+		int result=s1+s2;
+		printf("Result =%d",result);
+	}
+	
+

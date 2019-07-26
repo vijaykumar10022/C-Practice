@@ -1,0 +1,4 @@
+Datatypes:
+	-->integer  type:int(2/4 bytes),short(2bytes),long(4bytes)),char(1 byte)
+	-->Floating type:Flaot,double,
+	

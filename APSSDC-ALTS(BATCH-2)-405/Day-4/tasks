@@ -1,0 +1,93 @@
+Day 5 Tasks:
+-----------
+1).input:5
+   output: 
+	*		1	   1 	
+	**		12	   22
+	***     123    333
+	****    1234   4444
+	*****   12345  55555
+	2).input:5
+   output:
+          *     1       1
+         **    21      22
+        ***   321     333
+       ****  4321    4444
+      ***** 54321   55555
+3).input:5
+   output:
+   *
+   **
+   ***
+   ****
+   *****
+   ****
+   ***
+   **
+   *
+4).input:1478
+   output:8741 
+   input:101
+   output:101 -->palindrome
+5).input:1478-->8741-->8741%10-->1-->Switch(1-->one
+   output:one four seven eight   
+6)input:3214-->Count =4
+ output:40
+       3*4+2*3+1*2+4*1
+       12+6+2+4-->24
+    input:12345 -->count-->5
+    output:1*5+2*4+3*3+4*2+5*1->? 
+7).
+	Input rows: 5
+	Input columns: 5
+	Output
+	11111
+	11111
+	11111
+	11111
+	11111
+ 8).Input rows: 5
+	Input columns: 5
+	Output
+	11111-->0th row
+	00000-->1st row
+	11111-->2nd row
+	00000-->3rd row
+	11111-->4th row
+9).Input:5
+	Output
+	00000
+	01110
+	01110
+	01110
+	00000
+10).Input rows: 5
+Output
+    *
+   ***
+  *****
+ *******
+*********
+	
+11).Input N: 5
+Output
+*       *
+  *   *
+    *
+  *   *
+*       *
+  
+12).input:5
+   output:
+   A A A A A
+   B       B
+   C       C
+   D       D
+   E E E E E
+13).input:5
+    output:
+	     +    
+	     +
+	 + + + + +
+	     +
+	     +

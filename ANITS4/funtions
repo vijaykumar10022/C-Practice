@@ -1,0 +1,28 @@
+Funtion:
+-------
+1).pre defined-->Printf(),scanf(),sqrt(),main()...
+2).User defined
+		-->derived by four types based on arguments and return values
+				1).funtion with out argu and function with out return 
+				2).funtion with out arguments and funtion with return values
+				3).funtion with arg and funtion with out return values
+				4).funtion with arg and with return values
+		
+syntax:
+
+returntype funtionname(arguments){
+	statements
+	return type;
+}
+
+1).funtion declaration//above main() it is an optional part when placing the sub funtion (funtion defination)above the main
+2).Funtion calling//it is called by any where with in main or with in sub funtion
+3).Funtion defination//defining user required output
+
+
+
+
+
+
+
+
